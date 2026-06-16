@@ -127,9 +127,9 @@ export default function Navbar({ onOpenAiOverlay }) {
 
       <div className="navbar-right">
         <div className="navbar-icons">
-          <a href="https://github.com/codirect/codirect" aria-label="GitHub" className="icon-link"><FaGithub size={20} /></a>
+          <a href="https://github.com/codirect/codirect" target='_blank' aria-label="GitHub" className="icon-link"><FaGithub size={20} /></a>
           <a href="#" aria-label="Discord" className="icon-link"><FaDiscord size={20} /></a>
-          <a href="#" aria-label="Main Website" className="icon-link"><Globe size={20} /></a>
+          <a href="https://codirect.live" aria-label="Main Website" target='_blank' className="icon-link"><Globe size={20} /></a>
         </div>
       </div>
     </nav>
