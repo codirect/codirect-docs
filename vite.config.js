@@ -62,5 +62,4 @@ function autoSearchIndexPlugin() {
 
 export default defineConfig({
   plugins: [react(), autoSearchIndexPlugin()],
-  base: '/codirect-docs/',
 })
