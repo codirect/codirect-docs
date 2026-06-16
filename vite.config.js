@@ -62,4 +62,5 @@ function autoSearchIndexPlugin() {
 
 export default defineConfig({
   plugins: [react(), autoSearchIndexPlugin()],
+  base: process.env.NODE_ENV === 'production' ? '/codirect-docs/' : '/',
 })
