@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Audio Reference",
+    "path": "/audioreference",
+    "content": "Import an audio reference track to visually align and synchronize your timeline triggers with precision cues. Import Track: Click the  icon on the bottom track header to upload your audio file. Volume Control: Fine-tune audio playback levels using the inline volume slider. Waveform Visualization: Utilize the generated timeline waveform overlay to identify precise transient spikes and beat drops. Clear Reference: Click the trash bin icon to permanently remove the reference track from your current timeline view."
+  },
+  {
+    "id": 2,
+    "title": "Companion Status",
+    "path": "/companionstatus",
+    "content": "If the connection indicator shows a red status dot, coDIRECT is unable to communicate with Bitfocus Companion.\r\n        \r\n        Follow this troubleshooting guide to diagnose and resolve the issue. Verify that the IP address and port configuration match your active Bitfocus Companion instance. This indicates that the automated retrieval of your Companion button and page database has failed. Switch to manual mode and upload your Companion configuration file in JSON format.\r\n          \r\n          Note: In manual mode, you must re-import the updated JSON file whenever you modify buttons or pages within Companion. The real-time connection pipeline has encountered an issue. Refresh the interface or retry in a few moments. The connection is active and coDIRECT is running normally."
+  },
+  {
+    "id": 3,
+    "title": "Controlling via Companion",
+    "path": "/controlviacompanion",
+    "content": "You can remotely orchestrate and control coDIRECT directly from within the Bitfocus Companion ecosystem. Install the official coDIRECT module within your Bitfocus Companion instance. Locate your unique coDIRECT Connection ID in the Companion panel under WebSockets, then paste it into the Connection ID field within the Companion module settings. Use the provided button templates or map your own custom actions to match your workflow. Toggle playback state (Play / Pause) on the active sequence. Reset the current timeline playhead back to the beginning. Toggle the Trigger Hold state to block or allow automated actions. Navigate between timelines by switching to the previous, next, or a specific sequence index."
+  },
+  {
+    "id": 4,
+    "title": "Introduction",
+    "path": "/",
+    "content": "Welcome to the official\r\n        coDIRECT developer and user documentation. coDIRECT is an advanced timeline automation engine purpose-built for Bitfocus Companion.\r\n        \r\n        It empowers technical directors and broadcast engineers to synchronize, schedule, and orchestrate complex production workflows using precise, time-coded triggers. Engineered for flexibility, coDIRECT scales seamlessly from small local streams to enterprise broadcast environments."
+  },
+  {
+    "id": 5,
+    "title": "Playback Controls",
+    "path": "/playbackcontrols",
+    "content": "Quickly manage your session timeline and trigger behaviors using standard playback commands. Toggle between playing and pausing active playback. SPACE Stop playback instantly and return the playhead to the beginning of the timeline. R Keep the timeline running normally while temporarily blocking all triggers from firing. H"
+  },
+  {
+    "id": 6,
+    "title": "Quick Start",
+    "path": "/quickstart",
+    "content": "Get your coDIRECT project up and running in just a few simple steps. Locate your Companion pages and buttons within the right-hand panel. \n          \n          Simply drag and drop any action button onto your desired timeline track to create a trigger. Press the play button to start your automated sequence. Assign a name to your project. Retrieve and enter your Companion instance IP address and port from the Bitfocus Companion window. Resize: Click and drag either edge of a trigger block to adjust its active duration. Reposition: Drag and move a trigger block left or right to change its timing, or drop it onto a different track. Edit Labels: Double-click any trigger block to update its custom description."
+  },
+  {
+    "id": 7,
+    "title": "Sequences",
+    "path": "/sequences",
+    "content": "A sequence acts as an independent timeline container, housing a specific arrangement of tracks and automated triggers. To initialize a new sequence, click the + (plus) button in the Sequence Selector UI and enter a descriptive name. Reorder: Drag the handle up or down to rearrange the execution order. Rename: Click the pencil icon to modify the selected sequence name. Delete: Click the trash icon to permanently remove the sequence and its associated timeline content."
+  },
+  {
+    "id": 8,
+    "title": "System Requirements",
+    "path": "/systemrequirements",
+    "content": "For an optimal experience, make sure your environment meets the following baseline requirements. Intel i5 11Gen | AMD Ryzen 5 5600 | Apple M1 Chromium based browser (Helium, Google Chrome, Edge) Internet Connection"
+  }
+]
