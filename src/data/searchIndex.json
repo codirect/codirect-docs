@@ -15,7 +15,7 @@
     "id": 3,
     "title": "Controlling via Companion",
     "path": "/controlviacompanion",
-    "content": "You can remotely orchestrate and control coDIRECT directly from within the Bitfocus Companion ecosystem. Install the official coDIRECT module within your Bitfocus Companion instance. Locate your unique coDIRECT Connection ID in the Companion panel under WebSockets, then paste it into the Connection ID field within the Companion module settings. Use the provided button templates or map your own custom actions to match your workflow. Toggle playback state (Play / Pause) on the active sequence. Reset the current timeline playhead back to the beginning. Toggle the Trigger Hold state to block or allow automated actions. Navigate between timelines by switching to the previous, next, or a specific sequence index."
+    "content": "You can remotely orchestrate and control coDIRECT directly from within the Bitfocus Companion ecosystem. Since Bitfocus has still to approve the module, you can manually  download it Install the official coDIRECT module within your Bitfocus Companion instance. Locate your unique coDIRECT Connection ID in the Companion panel under WebSockets, then paste it into the Connection ID field within the Companion module settings. Use the provided button templates or map your own custom actions to match your workflow. Toggle playback state (Play / Pause) on the active sequence. Reset the current timeline playhead back to the beginning. Toggle the Trigger Hold state to block or allow automated actions. Navigate between timelines by switching to the previous, next, or a specific sequence index."
   },
   {
     "id": 4,
