@@ -37,12 +37,18 @@
   },
   {
     "id": 7,
+    "title": "Report a bug",
+    "path": "/reportabug",
+    "content": "If you've come accross a bug or are having an issue, please report it in this form"
+  },
+  {
+    "id": 8,
     "title": "Sequences",
     "path": "/sequences",
     "content": "A sequence acts as an independent timeline container, housing a specific arrangement of tracks and automated triggers. To initialize a new sequence, click the + (plus) button in the Sequence Selector UI and enter a descriptive name. Reorder: Drag the handle up or down to rearrange the execution order. Rename: Click the pencil icon to modify the selected sequence name. Delete: Click the trash icon to permanently remove the sequence and its associated timeline content."
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "System Requirements",
     "path": "/systemrequirements",
     "content": "For an optimal experience, make sure your environment meets the following baseline requirements. Intel i5 11Gen | AMD Ryzen 5 5600 | Apple M1 Chromium based browser (Helium, Google Chrome, Edge) Internet Connection"

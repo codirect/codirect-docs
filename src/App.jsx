@@ -11,6 +11,7 @@ import SystemRequirements from './pages/SystemRequirements'
 import CompanionStatus from './pages/CompanionStatus'
 import ControlViaCompanion from './pages/ControlViaCompanion'
 import AssistantOverlay from './components/AssistantOverlay/AssistantOverlay'
+import ReportABug from './pages/ReportABug'
 
 function App() {
   const [showAiOverlay, setShowAiOverlay] = useState(false);
@@ -29,6 +30,7 @@ function App() {
             <Route path="/playbackcontrols" element={<PlaybackControls />} />
             <Route path="/controlviacompanion" element={<ControlViaCompanion />} />
             <Route path="/companionstatus" element={<CompanionStatus />} />
+            <Route path="/reportabug" element={<ReportABug />} />
             <Route path="/systemrequirements" element={<SystemRequirements />} />
             <Route path="*" element={<div className="main-content"><h1>Not Found</h1></div>} />
           </Routes>
